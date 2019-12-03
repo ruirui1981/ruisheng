@@ -1,1 +1,8 @@
-"hello,world!"
+ <div id="mapall"></div>
+ <script>
+ var map=new BMap.Map("mapall")
+ var point= new BMap.Map(121.1111,39.1111)
+ map.centerAndZoons(point,12)
+ var market=new BMap.Market(point)
+ map.addOverlay(market)
+ </script>
